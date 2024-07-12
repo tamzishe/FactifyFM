@@ -3,10 +3,6 @@ import os
 import base64
 from requests import post, get 
 import json
-from io import BytesIO
-from PIL import Image
-from matplotlib import pyplot as plt
-from matplotlib import image as mpimg
 
 load_dotenv()
 
