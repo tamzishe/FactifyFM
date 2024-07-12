@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/factifyLogo.png') }}">
+    <title>FactifyFM with Py</title>
+</head>
+<body>
+    <div id="body">
+        <h1 style="color: antiquewhite;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;">FactifyFM</h1>
+        <div id="picture">
+            <img src="{{ url_for('static', filename='images/factifyLogo.png') }}" id="logo" alt="Spotipy Logo">
+        </div>
+        <div id="searchbar">
+            <div>
+                <form action="/" method="POST" style="vertical-align: middle;">
+                    <input class="textbox" type="text" placeholder="Search for an artist..." name="content" id="content">
+                    <input type="image" src="{{ url_for('static', filename='images/search-icon.png') }}" id="searchicon">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="waves">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </div>
+</body>
+</html>
