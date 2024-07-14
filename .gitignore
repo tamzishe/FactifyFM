@@ -1,4 +1,4 @@
 .env
 requirements.txt
-__pycache__
-env
+__pycache__/
+env/
