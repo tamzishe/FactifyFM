@@ -67,6 +67,19 @@ body #body{
     scale: 0.9;
     transition: 0.2s;
 }
+a:link, a:visited {
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active {
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
 #waves {
     overflow: hidden;
     height: 100px;
