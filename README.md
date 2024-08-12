@@ -1,14 +1,14 @@
 # FactifyFM
-A Flask-Python App that is able to go and search for artists and musicians, it will return important facts and stats about them!
+This is a Flask-Python App that can go and search for artists and musicians, and will return important facts and stats about them!
 
 Site: https://factifyfm-1.onrender.com/
 
-By searching for an artist, the program goes into Spotify and retrieve that data needed. 
+By searching for an artist, the program goes into Spotify and retrieves the data needed. 
 
-This project involves the use of HTML and CSS, Python and the Spotify Web API (and it's documentation).
-Go ahead and look through the code in the github repo.
+This project involves the use of HTML and CSS, Python and the Spotify Web API (and its documentation).
+Go ahead and look through the code in this GitHub repo.
 
-Note that the most optimal version of this project is on a desktop/laptop, optimization for mobile can get a bit buggy
+For the best experience with FactifyFM, use FactifyFM on a desktop!
 
 FAQ:
 Q:  Where is this API hosted? 
