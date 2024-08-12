@@ -2,6 +2,7 @@
 This is a Flask-Python App that can go and search for artists and musicians, and will return important facts and stats about them!
 
 Site: https://factifyfm-1.onrender.com/
+NOTE: Loading times will vary as the site often goes into downtime after not being used. Sorry for the inconvenience.
 
 By searching for an artist, the program goes into Spotify and retrieves the data needed. 
 
