@@ -68,17 +68,24 @@ body #body{
     transition: 0.2s;
 }
 a:link, a:visited {
-    font-weight: 500;
+    font-weight: 100;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: antiquewhite;
     cursor: auto;
+    transition:0.4s
 }
 
 a:link:active, a:visited:active {
     color: antiquewhite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
+}
+a:hover{
+    transition:0.4s;
+    text-decoration: underline;
+    font-weight: 600;
+    transform:scale(1.2);
 }
 #waves {
     overflow: hidden;
